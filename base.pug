@@ -1,0 +1,22 @@
+//- layout.pug
+doctype html 
+html
+  head
+    title Himanshu dance academy
+    block scripts
+    block style 
+  body
+    nav#navbar
+            ul 
+               div#logo
+                  img(src="../static/logo.png")
+                  | HDA 
+               li #[a(href="/") Home]
+               li #[a(href="/") About]
+               li #[a(href="/contact") Contact Us] 
+               li #[a(href="/") More]
+    block content
+    block foot
+      footer#foot 
+            | copyright © 2019 Himanshudanceacademy.com | All rights reserved  
+      

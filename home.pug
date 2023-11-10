@@ -1,0 +1,45 @@
+extends  base.pug
+
+block scripts
+  script(src='/static/indec.js')
+
+block style 
+  style
+      include ../static/style.css
+
+block content 
+    section#intro 
+            div Welcome to Himanshu's Dance Class 
+            div.small  EAT SLEEP AND DANCE REPEAT
+    section#mission 
+          h3  Our Mission 
+          div.card 
+             h3   Lorem ipsum dolor sit.
+              div.card-box
+                div.card-img
+                    img(src="/static/dance.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+          div.card 
+             h3   Lorem ipsum dolor sit.
+              div.card-box
+                div.card-img
+                    img(src="/static/dance.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+          div.card 
+             h3   Lorem ipsum dolor sit.
+              div.card-box
+                div.card-img
+                    img(src="/static/dance.png")
+                div.card-content
+                    p This is the best dance academy of the universe
+    section#sponsor 
+            h3 Our Sponsors
+            div.photo-container
+                img(src="/static/logo1.png", alt="sponsor logo", class="photo") 
+                img(src="/static/logo2.png", alt="sponsor logo", class="photo")
+                img(src="/static/logo3.png", alt="sponsor logo", class="photo")
+                img(src="/static/logo4.png", alt="sponsor logo", class="photo")
+                img(src="/static/logo5.png", alt="sponsor logo", class="photo")
+                
